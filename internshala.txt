@@ -1,0 +1,32 @@
+Test Case Document:
+
+Title: Email and Password Validation Test
+
+Objective: To validate the email input is a valid email and the password entered is of type password.
+
+Test Conditions:
+
+The email input should be in valid email format (e.g. example@domain.com)
+The password entered should be a minimum of 8 characters long.
+The submit button should only be enabled after both email and password have been entered in a valid format.
+
+Test Inputs:
+
+Email:
+valid email (e.g. example@domain.com)
+invalid email (e.g. example_domain.com)
+Password:
+valid password (e.g. password123)
+invalid password (e.g. pass)
+
+Test Outputs:
+
+Email:
+The email should be accepted and the submit button should be enabled if it is in a valid email format.
+The email should be rejected and an error message displayed if it is not in a valid email format.
+Password:
+The password should be accepted and the submit button should be enabled if it is at least 8 characters long.
+The password should be rejected and an error message displayed if it is less than 8 characters long.
+Submit button:
+The submit button should be enabled and clickable only after a valid email and password have been entered.
+The submit button should be disabled and unclickable if either the email or password is invalid.T
